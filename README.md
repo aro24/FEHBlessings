@@ -1,4 +1,5 @@
-﻿# FIre Emblem Heroes Canon Blessings Database
+
+# FIre Emblem Heroes Canon Blessings Database
 This project is meant to create canonical blessings for units in the mobile game, Fire Emblem Heroes. The game contains four types of blessings: Water, Wind, Earth, and Fire. This database takes data from each unit in the game in their respective origins, and attempts to categorize them into these four blessings. This was made using MSSQL, and tested with Microsoft Server Management Studio.
 # Approach
 Since each game in the Fire Emblem franchise has many different mechanics that changed as the series went forward, many liberties had to be taken for some games. This section will detail how each game was handled.
@@ -10,6 +11,7 @@ The GBA titles all share the same Affinity system, and it works the same way as 
 Geneology of the Holy War does not have a support system as fleshed out as the games mentioned above, since support ranks increase stats the same way between every character, boosting Evade, Hit, Crit, and Dodge the exact same way. However, Geneology has a *very* close mechanic to Fire Emblem Heroes's Blessing buffs: Holy Blood. A select few characters have Holy Blood, which increases the growth rates of certain stats. 
 What I decided on was to to cross reference what buffs each Blood type gave with what each of the available Legendary Heroes exist currently in the game. Any Holy Blood types that matched the stat bonuses of a Legendary Hero were given that Hero's respective Blessing. This means that when all Blessing types are able to buff the same stats, every Geneology character with the correct Holy Blood can be given any affinity. Since that hasn't happened yet, this section will be as new Legendary Heroes are added.
 ## Shadows of Valentia
+Fire Emblem Echoes: Shadows of Valentia has a support system that is not as simple as Geneology, Shadow Dragon, and New Mystery of the Emblem, but is also not as complex as Awakening, Fates, or even the GBA titles and the Tellus series. Simply put, each support bonus between characters is unique. Some rank up, others don't. Some support bonuses can differ between characters (Alm & Celica vs Alm & Clair for example). I decided to correlate the support bonuses of every support for all of the units in Fire Emblem Heroes from this game to the Affinities that exist in both the Tellus games and GBA titles. Since Echoes supports can only possibly increase a combination of Hit, Avoid, Crit chance, and Crit Avoid, the only compatable Affinities were Tellus's Wind and Earth Affinites. This means that characters from Shadows of Valentia can only receive either a Wind or Earth Blessing.
 ## Fire Emblem Warriors
 ## Awakening
 ## Fates
