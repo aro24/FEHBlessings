@@ -2,7 +2,7 @@
 # FIre Emblem Heroes Canon Blessings Database
 This project is meant to create canonical blessings for units in the mobile game, Fire Emblem Heroes. The game contains four types of blessings: Water, Wind, Earth, and Fire. This database takes data from each unit in the game in their respective origins, and attempts to categorize them into these four blessings. This was made using MSSQL, and tested with Microsoft Server Management Studio.
 # Approach
-Since each game in the Fire Emblem franchise has many different mechanics that changed as the series went forward, many liberties had to be taken for some games. This section will detail how each game was handled.
+Since each game in the Fire Emblem franchise has many different mechanics that changed as the series went forward, many liberties had to be taken for some games. This section will detail how each game was handled. Much of the data was sourced from Serenes Forest, the Fire Emblem Wiki, and Reddit for very specific cases.
 ## Path of Radiance and Radiant Dawn
 This was the easiest one to implement. Every unit in this series is given a respective Affinity, which boosts certain stats of the support partner. There are eight total affinities, and four of them happen to be Water, Wind, Earth, and Fire. Therefore, characters with any of the four Affinities from these games are translated one-to-one with Fire Emblem Heroes.
 ## The GBA Games (Binding Blade, Blazing Blade, Sacred Stones)
